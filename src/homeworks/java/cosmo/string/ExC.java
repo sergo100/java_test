@@ -10,6 +10,14 @@ package homeworks.java.cosmo.string;
 public class ExC {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
+        String [] splitedString=input.split(" ");
+        for (int i =0;i<=splitedString.length;i++){
+            if(i<4){
+                continue;
+            }
+            System.out.println(i);
+        }
+
 
     }
 }
